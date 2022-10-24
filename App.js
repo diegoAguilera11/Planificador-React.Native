@@ -20,7 +20,7 @@ import ListadoGastos from './src/components/ListadoGastos';
 import Filtro from './src/components/Filtro';
 import { generarId } from './src/helpers';
 
-// Planificador ZR
+// Planificador ZR hecho en React Native
 
 
 const App = () => {
