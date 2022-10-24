@@ -93,7 +93,7 @@ const FormularioGasto = ({
                     </Picker>
                 </View>
                 <Pressable style={styles.submitBtn} onPress={() => handleGasto({ nombre, cantidad, categoria, id, fecha })}>
-                    <Text style={styles.submitBtnTexto}>{gasto?.nombre ? 'Guardar Cambios Gasto' : 'Agregar Gasto'}</Text>
+                    <Text style={styles.submitBtnTexto}>{gasto?.nombre ? 'Guardar Cambio Gasto' : 'Agregar Gasto'}</Text>
                 </Pressable>
             </View>
         </SafeAreaView>

@@ -20,6 +20,9 @@ import ListadoGastos from './src/components/ListadoGastos';
 import Filtro from './src/components/Filtro';
 import { generarId } from './src/helpers';
 
+// Planificador ZR
+
+
 const App = () => {
 
   const [isValidPresupuesto, setIsValidPresupuesto] = useState(false)
